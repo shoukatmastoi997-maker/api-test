@@ -6,3 +6,6 @@ def root():
 @app.get("/hello")
 def hello(): 
     return {"Hello bro, How are you?"}
+@app.get("/shoukat")
+def shoukat():
+    return {"Shoukat bro, I am here to help you!"}
