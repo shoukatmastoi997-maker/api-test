@@ -9,3 +9,6 @@ def hello():
 @app.get("/shoukat")
 def shoukat():
     return {"Shoukat bro, I am here to help you!"}
+@app.get("/shoukat/{name}")
+def shoukat_name(name: str):
+    return {"Shoukat bro, I am here to help you!" + name}
