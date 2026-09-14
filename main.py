@@ -12,3 +12,6 @@ def shoukat():
 @app.get("/shoukat/{name}")
 def shoukat_name(name: str):
     return {"Shoukat bro, I am here to help you!" + name}
+@app.get("/age")
+def age():
+    return {"I am 22 years old bro!"}
